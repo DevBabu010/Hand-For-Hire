@@ -5,8 +5,19 @@ import logo from "../assets/hfhLogo.png";
 const Header = () => {
     return (
     <div className='headerDiv'>
-        <div><img src={logo} alt="logo" /></div>
-        <div>Hand For Hire</div>
+        <div className='logo'>
+            <div>
+                <img src={logo} alt="logo" />
+            </div>
+            <div className='logo-text'>
+                <p>Hand For Hire</p>
+            </div>
+        </div>
+        <div className='hamburger-menu'>
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
         
 
 
