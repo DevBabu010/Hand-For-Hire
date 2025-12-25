@@ -1,7 +1,7 @@
 .headerDiv{
     width: auto;
     height: 50px;
-    background-color: blue;
+    background-color: rgb(19, 19, 137);
     padding: 3px;
     display: flex;
     flex-direction: row;
@@ -12,6 +12,7 @@
 }
 .logo{
     display: flex;
+    gap: 5px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -20,20 +21,26 @@
 }
 
 .logo img {
-    padding-left: 200px;
+    padding-left: 10vw;
     padding-top: 4px;
     width: 40px;
     height: 40px;
     cursor: pointer;
+    
+    
+    
 }
 
 .logo-text{
-    font-size: 2rem;
+    line-height: 1.4;
+    overflow: visible; /* important */
+    font-size: 2.1rem;
     font-weight:600;
     cursor: pointer;
     color: azure;
-    overflow: hidden;
     font-family: lobster;
+    text-shadow: 5px 5px 3px black
+    
     
 }
 
@@ -51,11 +58,53 @@
     background: white;
 }
 
+.user-icon-and-hamburger{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+i{
+    font-size: 25px;
+    padding-right: 10px;
+
+}
+
+
+.button-32 {
+    background-color: #f1ed0c;
+    border-radius: 19px;
+    color: #000a02;
+    cursor: pointer;
+    font-weight: bold;
+    /* padding: 10px 15px; */
+    font-family: lobster;
+    text-align: center;
+    transition: 200ms;
+    width: 60px;
+    height: 25px;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+
+
+
 @media screen and (max-width:510px) {
     .logo-text {
     font-size: 1.3rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    overflow: visible;
     }
 }
+
+
+

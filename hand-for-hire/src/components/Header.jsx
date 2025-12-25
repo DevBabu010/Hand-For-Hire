@@ -13,10 +13,21 @@ const Header = () => {
                 <p>Hand For Hire</p>
             </div>
         </div>
-        <div className='hamburger-menu'>
-        <span></span>
-        <span></span>
-        <span></span>
+        <div className='user-icon-and-hamburger'>
+            <div>
+                <button className='button-32'>Join</button>
+            </div>
+            
+            <div>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-house"></i>
+            </div>
+            <div className='hamburger-menu'>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
         </div>
         
 
