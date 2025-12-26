@@ -1,12 +1,21 @@
 import React from 'react'
+import "./Loginform.css";
 
-const Loginform = () => {
+const Loginform = ({ onClose }) => {
     return (
-    <div>
-        <h1>Login Form</h1>
-        
-    </div>
-    )
-}
+    <div className="modal-overlay">
+        <div className="modal-box">
+        <span className="close-btn" onClick={onClose}>✖</span>
 
-export default Loginform
+        <h2>Login</h2>
+
+        <input type="text" placeholder="Username" />
+        <input type="password" placeholder="Password" />
+
+        <button className="login-btn">Login</button>
+        </div>
+    </div>
+    );
+};
+
+export default Loginform;
