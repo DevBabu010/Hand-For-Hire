@@ -2,11 +2,12 @@ import React from 'react'
 import "./Header.css";
 import logo from "../assets/hfhLogo.png";
 import { useState } from "react";
-import Loginform from "./components/Loginform";
+import Loginform from "./Loginform";
+
 
 const Header = () => {
 
-
+    const [showLogin, setShowLogin] = useState(false);
     return (
     <div className='headerDiv'>
         <div className='logo'>
@@ -19,7 +20,10 @@ const Header = () => {
         </div>
         <div className='user-icon-and-hamburger'>
             <div>
-                <button className='button-32'>Join</button>
+                <button onClick={() => setShowLogin(true)} className='button-32'>Join</button>
+                {showLogin && (
+        <LoginModal onClose={() => setShowLogin(false)} />
+        )}
             </div>
             
             <div>
