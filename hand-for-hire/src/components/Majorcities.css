@@ -1,0 +1,63 @@
+.slider {
+    width: 100vw;
+    overflow: hidden;
+}
+
+.track {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 5px; */
+    animation: scroll 10s infinite;
+}
+
+.item {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+/* animation */
+@keyframes scroll {
+    0% {
+    transform: translateX(0);
+    }
+
+    50%{
+    transform: translateX(5%);
+    }
+
+    100% {
+    transform: translateX(0);
+    }
+}
+
+.city-img{
+    cursor: pointer;
+    border-radius: 10px;
+    width: 150px;
+    height: 100px;
+}
+
+.city-img:hover{
+    border-radius: 50px;
+    /* width: 160px;
+    height: 110px; */
+}
+
+.city-txt{
+    font-family: lobster;
+}
+
+
+.city-heading{
+    padding-left: 3vw;
+    padding-top: 10vh;
+    font-size: 2rem;
+    font-family: lobster;
+}
+
+.city-underline{
+    margin-left: 5vw;
+}
