@@ -9,6 +9,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     
     
 }
@@ -89,8 +90,8 @@ i:hover{
 
 
 .button-32 {
-    background-color: #f1ed0c;
-    border-radius: 19px;
+    background-color: #fffffd;
+    border-radius: 4px;
     color: #000a02;
     cursor: pointer;
     font-weight: bold;
@@ -102,11 +103,15 @@ i:hover{
     height: 25px;
     box-sizing: border-box;
     border: 0;
-    font-size: 12px;
+    font-size: 14px;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
 }
+
+
+
+
 
 
 
@@ -119,6 +124,7 @@ i:hover{
     overflow: visible;
     }
 }
+
 
 
 
