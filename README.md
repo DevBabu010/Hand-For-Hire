@@ -27,11 +27,6 @@ Hand For Hire is a modern, responsive service-discovery web application that hel
 
 ---
 
-## 📸 Preview
-
-![Hand For Hire UI](./screencapture-localhost-5173-2025-12-28-22_56_47.png)
-
----
 
 ## 📂 Project Structure
 hand-for-hire/ <br>
@@ -80,6 +75,17 @@ http://localhost:5173
 ## 📄 License
 
 MIT License
+
+## 📸 Preview
+- HOME PAGE
+![Hand For Hire UI](./screencapture-localhost-5173-2025-12-28-22_56_47.png)
+
+- LOGIN POPUP
+![Login Popup](./Login-page.png)
+---
+- HAMBURGER MENU
+![Hamburger](./Hamburger-menu.png)
+---
 
 ## 👤 Author
 
