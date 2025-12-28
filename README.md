@@ -1,16 +1,91 @@
-# Hand-For-Hire
-## Hire hand for any work.
-here you can hire the best workers for your need like Electrician, Technician, Plumber etc.
-# features
-## If you are a worker :
-- Register yourself.
-- Create and maintain your profile.
-- Get hired
-- Earn money
-- ----------------
-## If you are looking for workers :
-- Register yourself
-- Search for your needs
-- Get workers or service.
-- -----------------
-  
+# Hand For Hire 🛠️
+*A One-Stop Platform to Discover Trusted Services & Experts*
+
+Hand For Hire is a modern, responsive service-discovery web application that helps users find skilled professionals across multiple categories such as Home Services, Education, Astrology, Wedding Services, and more — all in one place.
+
+---
+
+## 🚀 Features
+
+- Category-based service discovery
+- City-wise service exploration
+- Clean, modern, responsive UI
+- Fast performance with React + Vite
+- Component-based architecture
+- Mobile-friendly layout
+
+---
+
+## 🧑‍💻 Tech Stack
+
+- React.js
+- Vite
+- CSS3 (Flexbox, Media Queries)
+- Font Awesome
+- Google Fonts
+- Git & GitHub
+
+---
+
+## 📸 Preview
+
+![Hand For Hire UI](./screencapture-localhost-5173-2025-12-28-22_56_47.png)
+
+---
+
+## 📂 Project Structure
+hand-for-hire/ <br>
+├── public/<br>
+├── src/<br>
+│ ├── components/<br>
+│ ├── pages/<br>
+│ ├── assets/<br>
+│ ├── App.jsx<br>
+│ ├── main.jsx<br>
+│ └── index.css<br>
+├── package.json<br>
+├── vite.config.js<br>
+└── README.md<br>
+
+
+
+---
+
+## ⚙️ Installation & Run (locally)
+
+git clone https://github.com/devbabu010/hand-for-hire.git
+
+cd hand-for-hire
+
+npm install
+
+npm run dev
+
+Open in browser:
+
+http://localhost:5173
+
+---
+
+## 🌱 Future Improvements
+
+- Authentication (Login / Signup)
+- Search & filters
+- Backend & API integration
+- Location-based services
+- Ratings & reviews
+
+---
+
+## 📄 License
+
+MIT License
+
+## 👤 Author
+
+Shailendra Kumar Verma <br>
+Android & Fullstack Developer (React)
+
+
+
+
