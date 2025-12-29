@@ -31,9 +31,12 @@ const Astrologyservices = () => {
                 <button className='newtag'>New</button>
             </div>
             <div>
-
-                <div><img className='astro-body-img' src={horo} alt="pl" /></div>
-                <div><p className='astro-body-txt'>Horoscope</p></div>
+                <a href="https://www.horoscope.com/us/index.aspx">
+                    <div><img className='astro-body-img' src={horo} alt="pl" /></div>
+                
+                    <div><p className='astro-body-txt'>Horoscope</p></div>
+                </a>
+            
             </div>
             <div>
 

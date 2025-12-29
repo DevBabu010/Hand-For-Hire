@@ -11,6 +11,7 @@ const Gemstones = () => {
 
         </div>
         <div className='gemstone-about'>
+            <div className='Blank-div'></div>
             <div>
             <p className='gu-heading'>Gemstones & You</p>
             <p className='gu-para'>Through the sacred lens of Vedic astrology, we come to realize that the divine rhythms of the universe are deeply intertwined with the celestial movements of the planets.</p>
@@ -21,6 +22,7 @@ const Gemstones = () => {
             <div>
                 <img src= {Gemconsult} alt="gms" />
             </div>
+            <div className='Blank-div'></div>
         </div>
 
         <div className="gem-products-div">
@@ -38,8 +40,11 @@ const Gemstones = () => {
                     </div>
                     <div className='rating'>
                         <p>⭐4.5  |  435 Ratings</p>
-
                     </div>
+                    <div className='Price'>
+                        <p>Price : ₹2999</p>
+                    </div>
+                    <span class="hover-text">For financial security</span>
                     
                 </div>
                 <div className="product">
@@ -53,6 +58,11 @@ const Gemstones = () => {
                         <p>⭐4.9  |  335 Ratings</p>
 
                     </div>
+                    <div className='Price'>
+                        <p>Price : ₹2299</p>
+                    </div>
+                    <span class="hover-text">💍 For Wealth</span>
+
                 </div>
                 <div className="product">
                     <div className='product-image'>
@@ -65,6 +75,11 @@ const Gemstones = () => {
                         <p>⭐4.1  |  735 Ratings</p>
 
                     </div>
+                    <div className='Price'>
+                        <p>Price : ₹2899</p>
+                    </div>
+                    <span class="hover-text">💍 For Calmness</span>
+
                 </div>
                 <div className="product">
                     <div className='product-image'>
@@ -77,6 +92,9 @@ const Gemstones = () => {
                         <p>⭐3.9  |  390 Ratings</p>
 
                     </div>
+                    <div className='Price'>
+                        <p>Price : ₹2999</p>
+                    </div>
                 </div>
                 <div className="product">
                     <div className='product-image'>
@@ -88,6 +106,9 @@ const Gemstones = () => {
                     <div className='rating'>
                         <p>⭐4.2  |  392 Ratings</p>
 
+                    </div>
+                    <div className='Price'>
+                        <p>Price : ₹3299</p>
                     </div>                   
                 </div>
                 <div className="product">
@@ -101,6 +122,9 @@ const Gemstones = () => {
                         <p>⭐4.3  |  634 Ratings</p>
 
                     </div>
+                    <div className='Price'>
+                        <p>Price : ₹11099</p>
+                    </div>
                 </div>
                 <div className="product">
                     <div className='product-image'>
@@ -112,6 +136,9 @@ const Gemstones = () => {
                     <div className='rating'>
                         <p>⭐4.6  |  097 Ratings</p>
 
+                    </div>
+                    <div className='Price'>
+                        <p>Price : ₹2199</p>
                     </div>
                 </div>
                 <div className="product">
@@ -125,6 +152,9 @@ const Gemstones = () => {
                         <p>⭐4.7  |  105 Ratings</p>
 
                     </div>
+                    <div className='Price'>
+                        <p>Price : ₹2099</p>
+                    </div>
                 </div>
                 <div className="product">
                     <div className='product-image'>
@@ -136,6 +166,9 @@ const Gemstones = () => {
                     <div className='rating'>
                         <p>⭐3.6  |  46 Ratings</p>
 
+                    </div>
+                    <div className='Price'>
+                        <p>Price : ₹3299</p>
                     </div>
                 </div>
                 <div className="product">
@@ -149,6 +182,9 @@ const Gemstones = () => {
                         <p>⭐3.6  |  46 Ratings</p>
 
                     </div>
+                    <div className='Price'>
+                        <p>Price : ₹2999</p>
+                    </div>
                 </div>
                 <div className="product">
                     <div className='product-image'>
@@ -160,6 +196,9 @@ const Gemstones = () => {
                     <div className='rating'>
                         <p>⭐3.9  |  416 Ratings</p>
 
+                    </div>
+                    <div className='Price'>
+                        <p>Price : ₹2899</p>
                     </div>
                 </div>
 
@@ -174,7 +213,12 @@ const Gemstones = () => {
                         <p>⭐3.8  |  432 Ratings</p>
 
                     </div>
+                    <div className='Price'>
+                        <p>Price : ₹99999</p>
+                    </div>
                 </div>
+
+                
 
 
 
