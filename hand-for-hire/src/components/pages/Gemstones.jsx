@@ -25,39 +25,159 @@ const Gemstones = () => {
 
         <div className="gem-products-div">
             <div className="gem-products-heading">
-                <p>GENSTONES COLLECTION</p>
+                <p>GEMSTONES COLLECTION</p>
+                <img src="divider.png" alt="dv" />
             </div>
             <div className="gem-products">
                 <div className="product">
-                    ITEM
+                    <div className='product-image'>
+                        <img src="/Pukhraj.webp" alt="p" />
+                    </div>
+                    <div className='product-name'>
+                        <p>Pukhraj</p>
+                    </div>
+                    <div className='rating'>
+                        <p>⭐4.5  |  435 Ratings</p>
+
+                    </div>
+                    
                 </div>
                 <div className="product">
-                    ITEM
+                    <div className='product-image'>
+                        <img src="/Emerald.webp" alt="p" />
+                    </div>
+                    <div className='product-name'>
+                        <p>Emerald</p>
+                    </div>
+                    <div className='rating'>
+                        <p>⭐4.9  |  335 Ratings</p>
+
+                    </div>
                 </div>
                 <div className="product">
-                    ITEM
+                    <div className='product-image'>
+                        <img src="/Ruby.webp" alt="p" />
+                    </div>
+                    <div className='product-name'>
+                        <p>Ruby</p>
+                    </div>
+                    <div className='rating'>
+                        <p>⭐4.1  |  735 Ratings</p>
+
+                    </div>
                 </div>
                 <div className="product">
-                    ITEM
+                    <div className='product-image'>
+                        <img src="/neelam.webp" alt="p" />
+                    </div>
+                    <div className='product-name'>
+                        <p>Neelam</p>
+                    </div>
+                    <div className='rating'>
+                        <p>⭐3.9  |  390 Ratings</p>
+
+                    </div>
                 </div>
                 <div className="product">
-                    ITEM
+                    <div className='product-image'>
+                        <img src="/Hessonite.webp" alt="p" />
+                    </div>
+                    <div className='product-name'>
+                        <p>Hessonite</p>
+                    </div>
+                    <div className='rating'>
+                        <p>⭐4.2  |  392 Ratings</p>
+
+                    </div>                   
                 </div>
                 <div className="product">
-                    ITEM                   
+                    <div className='product-image'>
+                        <img src="/Citrine.webp" alt="p" />
+                    </div>
+                    <div className='product-name'>
+                        <p>Citrine</p>
+                    </div>
+                    <div className='rating'>
+                        <p>⭐4.3  |  634 Ratings</p>
+
+                    </div>
                 </div>
                 <div className="product">
-                    ITEM
+                    <div className='product-image'>
+                        <img src="/Turquoise.webp" alt="p" />
+                    </div>
+                    <div className='product-name'>
+                        <p>Turquoise</p>
+                    </div>
+                    <div className='rating'>
+                        <p>⭐4.6  |  097 Ratings</p>
+
+                    </div>
                 </div>
                 <div className="product">
-                    ITEM
+                    <div className='product-image'>
+                        <img src="/Blue-Topaz.webp" alt="p" />
+                    </div>
+                    <div className='product-name'>
+                        <p>Blue-Topaz</p>
+                    </div>
+                    <div className='rating'>
+                        <p>⭐4.7  |  105 Ratings</p>
+
+                    </div>
                 </div>
                 <div className="product">
-                    ITEM
+                    <div className='product-image'>
+                        <img src="/African-Ruby.webp" alt="p" />
+                    </div>
+                    <div className='product-name'>
+                        <p>African-Ruby</p>
+                    </div>
+                    <div className='rating'>
+                        <p>⭐3.6  |  46 Ratings</p>
+
+                    </div>
                 </div>
                 <div className="product">
-                    ITEM
+                    <div className='product-image'>
+                        <img src="/Zambian-Emerald.webp" alt="p" />
+                    </div>
+                    <div className='product-name'>
+                        <p>Zambian-Emerald</p>
+                    </div>
+                    <div className='rating'>
+                        <p>⭐3.6  |  46 Ratings</p>
+
+                    </div>
                 </div>
+                <div className="product">
+                    <div className='product-image'>
+                        <img src="/Peetambari-Neelam.webp" alt="p" />
+                    </div>
+                    <div className='product-name'>
+                        <p>Peetambari-Neelam.</p>
+                    </div>
+                    <div className='rating'>
+                        <p>⭐3.9  |  416 Ratings</p>
+
+                    </div>
+                </div>
+
+                <div className="product">
+                    <div className='product-image'>
+                        <img src="/black-gold.png" alt="p" />
+                    </div>
+                    <div className='product-name'>
+                        <p>Black Gold</p>
+                    </div>
+                    <div className='rating'>
+                        <p>⭐3.8  |  432 Ratings</p>
+
+                    </div>
+                </div>
+
+
+
 
                 
             </div>

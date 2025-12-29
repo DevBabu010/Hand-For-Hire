@@ -5,9 +5,7 @@ padding-top: 100px;
 padding-bottom: 25px;
 }
 
-.gemstone-banner-div{
 
-}
 
 .gemstone-about{  
     display: flex;
@@ -35,12 +33,14 @@ font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .gem-products-heading{
+    padding-top: 20px;
     text-align: center;
+    
 }
 
 .gem-products-heading p {
-    margin: 10px;
-    font-size: 5rem;
+    
+    font-size: 4rem;
     background: linear-gradient(
     90deg,
     #7a5c1e,
@@ -65,9 +65,54 @@ font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .gem-products{
-
+    padding-bottom: 30px;
+    margin-left : 150px;
+    font-weight: 500;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+
 
     
 }
+
+.product-image img{
+
+    width: 300px;        /* adjust to your need */
+    height: 200px;       /* controls how much gets cropped */
+    object-fit: cover;   /* crop */
+    object-position: 80% 30% ; /* keep center part */
+    
+}
+
+.product-image img:hover{
+    cursor: pointer;
+    transform: translate(10px);
+
+}
+
+.product-name p{
+    
+    font-size: 1.5rem; 
+}
+
+.product-name{
+    width: 280px;
+    align-items: center;
+    text-align: center;
+}
+
+.rating{
+    width: 280px;
+    text-align: center;
+    
+}
+
+.rating p{
+    font-size:1rem ;
+}
+
+/* .product{
+    cursor: pointer;
+} */
