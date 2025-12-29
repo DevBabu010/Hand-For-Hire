@@ -1,5 +1,7 @@
 import React from 'react'
 import './Astrologyservices.css'
+import { Link } from "react-router-dom";
+
 import underline from  "../assets/yellow-underline.svg";
 import emerald from "../assets/emerald.webp"
 import ruby from "../assets/ruby.webp"
@@ -19,7 +21,12 @@ const Astrologyservices = () => {
         </div>
         <div className='astro-body'>
             <div className='new-tag-div'>
-                <div><img className='astro-body-img' src={emerald} alt="pl" /></div>
+                <div>
+                    <Link to = "/gemstones" target="_blank">
+                    <img className='astro-body-img' src={emerald} alt="pl" />
+                    </Link>
+                    
+                </div>
                 <div><p className='astro-body-txt'>Buy Gemstones</p></div>
                 <button className='newtag'>New</button>
             </div>

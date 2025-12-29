@@ -1,58 +1,41 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
+
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Banner from "./components/Banner";
 import Majorcities from "./components/Majorcities";
-import Footer from "./components/Footer";
 import Astrology from "./components/Astrologyservices";
 import Wedding from "./components/Wedding";
-import Loginform from "./components/Loginform";
-import Hamburgermenu from './components/Hamburgermenu';
-import Gemstones from './components/pages/Gemstones.jsx';
-
-
+import Gemstones from "./components/pages/Gemstones";
 
 function App() {
-  const [showLogin, setShowLogin] = useState(false);
-  const [showHb, setShowHb] = useState(false);
-
   return (
-    
-    
     <>
-    <Routes>
-      {/* <Route path="/" element={<Home />} /> */}
-      <Route path="/gemstones" element={<Gemstones />} />
-      
-    </Routes>
-
-        <Header 
-          openLogin={() => setShowLogin(true)} 
-          openHb={()=> setShowHb(true)}
-          
+      <Header />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Banner />
+              <Majorcities />
+              <Astrology />
+              <Wedding />
+            </>
+          }
         />
-      
 
+        <Route 
+        path="/gemstones" 
+        element={<Gemstones />         
+        } 
+        />
+      </Routes>
 
-        {showHb && (
-          <Hamburgermenu onHbClose={() => setShowHb(false)} />
-          )}
-      
-
-        {showLogin && (
-          <Loginform onClose={() => setShowLogin(false)} />
-        )}
-      <Banner/>
-      
-      <Majorcities/>
-      <Astrology/>
-      <Wedding/>
-      <Gemstones/>
-      <Footer/>
-      
-      
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

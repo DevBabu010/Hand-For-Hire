@@ -1,6 +1,35 @@
 .gemstone-banner-div img{
 width: 100%;
 cursor: pointer;
+padding-top: 100px;
+padding-bottom: 25px;
+}
+
+.gemstone-banner-div{
 
 }
 
+.gemstone-about{  
+    display: flex;
+    justify-content: space-around;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-bottom: 40px;
+    gap: 20px;
+
+}
+
+.gemstone-about img{
+    width: 300px;
+    
+}
+
+.gu-heading{
+    font-size: 3.5rem;
+    padding-bottom: 10px;
+}
+
+.gu-para{
+font-family: Georgia, "Times New Roman", Times, serif;
+
+}
