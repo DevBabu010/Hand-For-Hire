@@ -22,8 +22,7 @@ const Header = ({ openLogin , openHb}) => {
         
         <div className='user-icon-and-hamburger'>
             <div>
-                <button onClick={openLogin} className='button-32'>LogIn</button>
-                
+                <button onClick={openLogin} className='button-32' > LogIn</button>              
             </div>
             
             <div>

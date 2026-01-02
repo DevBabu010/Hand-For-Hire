@@ -8,11 +8,30 @@ import Majorcities from "./components/Majorcities";
 import Astrology from "./components/Astrologyservices";
 import Wedding from "./components/Wedding";
 import Gemstones from "./components/pages/Gemstones";
+import Loginform from "./components/Loginform";
+import Hamburgermenu from "./components/Hamburgermenu";
+import "./App.css"; // ← this must exist
+
 
 function App() {
+
+  const [showLogin, setShowLogin] = useState(false);
+  const [showHb, setShowHb] = useState(false);
+
   return (
     <>
-      <Header />
+    <Header 
+    openLogin={() => setShowLogin(true)} 
+    openHb={()=> setShowHb(true)}
+    />
+
+    {showLogin && (
+      <Loginform onClose={() => setShowLogin(false)} />
+      )}
+
+    {showHb && (
+      <Hamburgermenu onHbClose={() => setShowHb(false)}/>
+    )}
       <Routes>
         <Route
           path="/"

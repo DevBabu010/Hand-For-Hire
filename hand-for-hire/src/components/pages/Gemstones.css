@@ -78,8 +78,8 @@ font-family: Georgia, "Times New Roman", Times, serif;
 
 .product-image img{
 
-    width: 300px;        /* adjust to your need */
-    height: 200px;       /* controls how much gets cropped */
+    width: 250px;        /* adjust to your need */
+    height: 180px;       /* controls how much gets cropped */
     object-fit: cover;   /* crop */
     object-position: 80% 30% ; /* keep center part */
     
