@@ -1,4 +1,4 @@
-# # Hand for Hire (MERN Stack) 🛠️
+# Hand for Hire (MERN Stack) 🛠️
 
 _A One-Stop Platform to Discover Trusted Services & Experts_
 
