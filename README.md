@@ -1,5 +1,6 @@
 # Hand For Hire 🛠️
-*A One-Stop Platform to Discover Trusted Services & Experts*
+
+_A One-Stop Platform to Discover Trusted Services & Experts_
 
 Hand For Hire is a modern, responsive service-discovery web application that helps users find skilled professionals across multiple categories such as Home Services, Education, Astrology, Wedding Services, and more — all in one place.
 
@@ -27,8 +28,8 @@ Hand For Hire is a modern, responsive service-discovery web application that hel
 
 ---
 
-
 ## 📂 Project Structure
+
 hand-for-hire/ <br>
 ├── public/<br>
 ├── src/<br>
@@ -41,8 +42,6 @@ hand-for-hire/ <br>
 ├── package.json<br>
 ├── vite.config.js<br>
 └── README.md<br>
-
-
 
 ---
 
@@ -77,21 +76,26 @@ http://localhost:5173
 MIT License
 
 ## 📸 Preview
+
 - HOME PAGE
-![Hand For Hire UI](./screencapture-localhost-5173-2025-12-28-22_56_47.png)
+  ![Hand For Hire UI](./screencapture-localhost-5173-2025-12-28-22_56_47.png)
 
 - LOGIN POPUP
-![Login Popup](./Login-page.png)
+  ![Login Popup](./Login-page.png)
+
 ---
+
 - HAMBURGER MENU
-![Hamburger](./Hamburger-menu.png)
+  ![Hamburger](./Hamburger-menu.png)
+
+---
+
+- Product Page
+  ![Hamburger](./Gemstones.png)
+
 ---
 
 ## 👤 Author
 
 Shailendra Kumar Verma <br>
 Android & Fullstack WEB Developer (React)
-
-
-
-
