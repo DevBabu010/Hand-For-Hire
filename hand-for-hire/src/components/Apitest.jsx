@@ -3,7 +3,6 @@ import "./Apitest.css";
 
 function Users() {
     const [users, setUsers] = useState([]);
-
     useEffect(() => {
         fetch("https://dummyjson.com/users")
         .then(res => res.json())
@@ -18,6 +17,9 @@ function Users() {
             <h3>{user.firstName} {user.lastName}</h3>
             <p>{user.email}</p>
             <p>Age: {user.age}</p>
+            <p>Height: {user.height}</p>
+            {/* <p>Location: {user.coordinates/lat}</p> */}
+            <p>Ip : {user.ip}</p>
             </div>
         ))}
         </div>

@@ -21,7 +21,6 @@
   background: rgb(245, 248, 246);
   padding: 25px;
   width: 410px;
-  /* height: 300px; */
   border-radius: 17px;
   position: relative;
   display: flex;
@@ -30,7 +29,7 @@
   animation: popup 0.3s ease;
 }
 .modal-box input {
-  background-color: #8d8eaf;
+  background-color: #c7c7d2;
   outline: none;
   border: none;
   border-radius: 10px;
@@ -80,7 +79,7 @@
 }
 
 .username{
-  background-color: #8d8eaf;
+  background-color: #c7c7d2;
   /* background-color: #baebbf; */
   border-radius: 10px;
 }

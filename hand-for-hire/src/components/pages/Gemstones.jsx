@@ -42,7 +42,7 @@ const Gemstones = () => {
                         <p>⭐4.5  |  435 Ratings</p>
                     </div>
                     <div className='Price'>
-                        <p>Price : ₹2999</p>
+                        <p>Price : ₹9999</p>
                     </div>
                     <span class="hover-text">For financial security</span>
                     
@@ -59,7 +59,7 @@ const Gemstones = () => {
 
                     </div>
                     <div className='Price'>
-                        <p>Price : ₹2299</p>
+                        <p>Price : ₹8299</p>
                     </div>
                     <span class="hover-text">💍 For Wealth</span>
 
@@ -76,7 +76,7 @@ const Gemstones = () => {
 
                     </div>
                     <div className='Price'>
-                        <p>Price : ₹2899</p>
+                        <p>Price : ₹89899</p>
                     </div>
                     <span class="hover-text">💍 For Calmness</span>
 
@@ -93,7 +93,7 @@ const Gemstones = () => {
 
                     </div>
                     <div className='Price'>
-                        <p>Price : ₹2999</p>
+                        <p>Price : ₹89999</p>
                     </div>
                 </div>
                 <div className="product">
@@ -108,7 +108,7 @@ const Gemstones = () => {
 
                     </div>
                     <div className='Price'>
-                        <p>Price : ₹3299</p>
+                        <p>Price : ₹45299</p>
                     </div>                   
                 </div>
                 <div className="product">
@@ -123,7 +123,7 @@ const Gemstones = () => {
 
                     </div>
                     <div className='Price'>
-                        <p>Price : ₹11099</p>
+                        <p>Price : ₹19099</p>
                     </div>
                 </div>
                 <div className="product">
@@ -138,7 +138,7 @@ const Gemstones = () => {
 
                     </div>
                     <div className='Price'>
-                        <p>Price : ₹2199</p>
+                        <p>Price : ₹2999</p>
                     </div>
                 </div>
                 <div className="product">
