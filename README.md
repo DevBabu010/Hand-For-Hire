@@ -1,4 +1,4 @@
-# Hand For Hire 🛠️
+# # Hand for Hire (MERN Stack) 🛠️
 
 _A One-Stop Platform to Discover Trusted Services & Experts_
 
@@ -19,7 +19,7 @@ Hand For Hire is a modern, responsive service-discovery web application that hel
 
 ## 🧑‍💻 Tech Stack
 
-- React.js
+- MongoDB | Express | React | Node.js
 - Vite
 - CSS3 (Flexbox, Media Queries)
 - Font Awesome
