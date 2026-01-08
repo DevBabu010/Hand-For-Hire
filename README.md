@@ -90,7 +90,7 @@ MIT License
 ## 👤 Author
 
 Shailendra Kumar Verma <br>
-Android & Fullstack Developer (React)
+Android & Fullstack WEB Developer (React)
 
 
 
